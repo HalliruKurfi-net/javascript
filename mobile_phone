@@ -1,0 +1,17 @@
+fill(255, 0, 0);
+textSize(30);
+text("MOBILE PHONES ACCESSORIES!", 10, 30);
+textSize(20);
+text("We sales highly qualitative and durable hand set accessories!", 10, 60);
+textSize(15);
+text("Our products are guaranteed and always offered at an affordable prices!", 10, 90);
+fill(93, 86, 102);
+rect(20,98,230,250);
+fill(43, 64, 107);
+rect(20,348,230,20);
+fill(196, 28, 171);
+ellipse(33,360,20,20);
+fill(24, 145, 32);
+ellipse(140,360,20,20);
+fill(255, 0, 0);
+ellipse(240,360,20,20);

@@ -1,0 +1,19 @@
+
+var paintBrush = {
+    x: 220,
+    y: 260,
+    img: getImage("creatures/Winston")
+};
+
+
+var paintCanvas = function() {
+    imageMode(CENTER);
+    image(paintBrush.img, paintBrush.x, paintBrush.y);
+};
+
+mouseMoved = function() {
+
+    paintBrush.x = mouseX;
+    paintBrush.y = mouseY;
+    paintCanvas();
+};

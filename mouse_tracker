@@ -1,0 +1,10 @@
+fill(255, 0, 255);
+
+draw = function() {
+background(255, 255, 255);
+ellipse(36, 45, 12, 12);
+var mouseTracker="Pointer";
+var message= mouseTracker;
+text(message, mouseX, mouseY);
+
+};

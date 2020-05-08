@@ -1,0 +1,16 @@
+var recipeTitle = "Pounded Yam";
+var recipeServings = 4;
+var recipeIngredients = ["Yam", "Stew"];
+
+var recipe={
+    title:"Pounded Yam",
+    servings:4,
+    ingredients:["Yam", "Stew"]
+
+};
+fill(21, 14, 110);
+textSize(30);
+text(recipe.title, 10, 23);
+fill(57, 189, 30);
+text("Serves: " + recipe.servings, 10, 55);
+text("Ingredients: " + recipe.ingredients, 10, 85);

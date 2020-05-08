@@ -1,0 +1,7 @@
+//mouseX and mouseY
+strokeWeight(4);
+stroke(25, 176, 10);
+draw= function() {
+    fill(mouseX,142,110);
+    rect(mouseX, mouseY,20,20);
+};

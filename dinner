@@ -1,0 +1,17 @@
+//dinner_table
+background(186, 145, 20); // wooden table
+fill(240, 232, 72);
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300);
+fill(240, 232, 232);
+ellipse(91, 210, 70, 70);//pounded yam
+ellipse(170, 210, 70, 70);//pounded yam
+ellipse(105, 130, 70, 70);//pounded yam
+fill(224, 42, 18);
+rect(250,200,60,60);//stew
+fill(102, 59, 59);
+triangle(190, 100, 238, 220, 142, 120);//drikns
+fill(19, 156, 24);
+ellipse(260, 146, 75, 75);//fruits
+fill(107, 95, 15);
+ellipse(170, 286, 55, 55);//meat

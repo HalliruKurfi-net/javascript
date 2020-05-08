@@ -1,0 +1,7 @@
+draw = function() {
+    fill(115, 16, 16);
+
+if(mouseIsPressed) {
+ellipse(mouseX, mouseY, 20, 20);
+}
+};

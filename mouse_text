@@ -1,0 +1,13 @@
+//string=text
+fill(124,25,34);
+
+var howBig=10;
+draw= function() {
+    howBig=howBig+1;
+    textSize(howBig);
+    background(135, 15, 135);
+    var myName="Halliru";
+    var message=myName+"Katsina";
+    text(message, mouseX, mouseY);
+
+};

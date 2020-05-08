@@ -1,0 +1,14 @@
+fill(107, 13, 13);
+
+textSize(40);
+
+text("My favorite foods", 99,100);
+
+fill(25, 35, 153);
+
+textSize(25);
+
+text("1. Fried rice", 99,130);
+
+text("2. Pounded Yam", 99,150);
+text("3. Tuwo", 99,170);

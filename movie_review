@@ -1,0 +1,19 @@
+var movies = [
+    {
+        title: "Akeelah and the bee",
+        review: "Favorite movie!!!"
+    },
+    {
+        title: "The 3 idiots",
+        review: "Just the best!!!"
+    }
+];
+
+fill(85, 207, 93);
+textAlign(CENTER, CENTER);
+for (var i = 0; i < movies.length; i++) {
+    textSize(20);
+    text(movies[i].title, 200, 80*i + 50);
+    textSize (18);
+    text(movies[i].review, 200, 80*i + 80);
+}

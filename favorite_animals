@@ -1,0 +1,15 @@
+fill(33, 222, 33);
+textSize (20);
+text("My top 3 favorite animals", 100, 15);
+var favoriteAnimals = "Camel";
+var favoriteAnimals = ["Camel", "Horse", "Cat", "Lion", "Elephant"];
+fill(171, 171, 22);
+text(favoriteAnimals[0], 10, 30);
+text(favoriteAnimals[1], 10, 60);
+text(favoriteAnimals[2], 10, 90);
+
+var animalNum = 0;
+while(animalNum<favoriteAnimals.length){
+    text(favoriteAnimals[animalNum], 10, 30+animalNum*30);
+    animalNum++;
+}

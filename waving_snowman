@@ -1,0 +1,7 @@
+ellipse(220, 100, 110, 100);//top ellipse
+ellipse(220, 9, 85, 100);//middle ellipse
+line(260,105,1500,-900);//right line
+line(175,105,90,3);//left line
+
+rect(30,240,370,40);//rectangle
+ellipse(220, 198, 150, 150);//bottom ellipse
